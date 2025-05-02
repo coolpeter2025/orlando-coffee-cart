@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary Meta Tags - Optimized with more keywords and natural language -->
+    <title>Delightful Bean | Premium Mobile Coffee Catering in Davis Islands, FL</title>
+    <meta name="description" content="Davis Islands' premier mobile coffee catering service featuring professional baristas for corporate events, weddings, bridal showers, and private parties throughout Tampa Bay. Book our luxury mobile espresso bar today!">
+    <meta name="keywords" content="mobile coffee cart, coffee catering Davis Islands, Tampa Bay coffee service, premium coffee service, wedding coffee bar, corporate coffee catering, Davis Islands events, party coffee service, bridal shower coffee, teacher appreciation coffee, employee appreciation coffee bar, mobile espresso bar, coffee cart rental near me, luxury coffee service, event coffee service, private party coffee, coffee bar for events, specialty coffee catering, Tampa Bay mobile coffee">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.delightfulbean.com/">
+    
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="US-FL">
+    <meta name="geo.placename" content="Davis Islands">
+    <meta name="geo.position" content="27.9319;-82.4515">
+    <meta name="ICBM" content="27.9319, -82.4515">
+    
+    <!-- Google Verification -->
+    <meta name="google-site-verification" content="SjZBaNnY3QwYaBvJmVz8hphbsdi6zCaHhkhnwg4mNX4" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.delightfulbean.com/">
+    <meta property="og:title" content="Delightful Bean | Premium Mobile Coffee Experience">
+    <meta property="og:description" content="Book Davis Islands' premier mobile coffee service for your next event. Professional baristas, artisanal coffee, elegant presentation.">
+    <meta property="og:image" content="https://www.delightfulbean.com/images/og-image.jpg">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.delightfulbean.com/">
+    <meta property="twitter:title" content="Delightful Bean | Premium Mobile Coffee Experience">
+    <meta property="twitter:description" content="Book Davis Islands' premier mobile coffee service for your next event. Professional baristas, artisanal coffee, elegant presentation.">
+    <meta property="twitter:image" content="https://www.delightfulbean.com/images/og-image.jpg">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style">
+    
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <style>
+        /* Custom color variables - Coffee Theme */
+        :root {
+            --primary: #5d4037;    /* Dark brown */
+            --secondary: #e28f64;  /* Orange-brown */
+            --accent: #ffab91;     /* Peach accent */
+            --light-blue: #f5f5f0; /* Light cream background */
+            --dark: #3e2723;       /* Dark coffee */
+            --text: #2c3e50;       /* Text color */
+        }
+        
+        .bg-primary { background-color: var(--primary); }
+        .bg-secondary { background-color: var(--secondary); }
+        .bg-accent { background-color: var(--accent); }
+        .bg-light-blue { background-color: var(--light-blue); }
+        .text-primary { color: var(--primary); }
+        .text-secondary { color: var(--secondary); }
+        .text-accent { color: var(--accent); }
+        .text-dark { color: var(--dark); }
+        .border-secondary { border-color: var(--secondary); }
+        .hover\:bg-secondary:hover { background-color: var(--secondary); }
+        .hover\:text-white:hover { color: white; }
+        
+        /* Custom classes */
+        .hero-section {
+            min-height: 80vh;
+            background: linear-gradient(135deg, #f5f5f0 0%, #e8e8e0 100%);
+        }
+        .feature-card {
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 12px;
+            box-shadow: 0 4px
+         15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .ai-icon {
+            background-color: var(--secondary);
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .cta-button {
+            background-color: var(--secondary);
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+        .cta-button:hover {
+            background-color: #d65f41;
+            transform: scale(1.05);
+        }
+        
+        /* Accessibility improvements */
+        a:focus, button:focus {
+            outline: 2px solid var(--secondary);
+            outline-offset: 2px;
+        }
+        
+        /* Lazy loading for images */
+        .lazy-image {
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .lazy-image.loaded {
+            opacity: 1;
+        }
+    </style>
+    
+    <!-- Schema.org JSON-LD structured data - Enhanced with more services and FAQ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Delightful Bean",
+      "description": "Davis Islands' premier mobile coffee experience featuring professional baristas for corporate events, weddings, bridal showers, teacher appreciation days, and private parties throughout Tampa Bay.",
+      "url": "https://www.delightfulbean.com",
+      "telephone": "+18134197438",
+      "email": "info@delightfulbean.com",
+      "priceRange": "$$",
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Davis Islands"
+        },
+        {
+          "@type": "City",
+          "name": "Tampa"
+        },
+        {
+          "@type": "City",
+          "name": "Lutz"
+        },
+        {
+          "@type": "City",
+          "name": "Land O' Lakes"
+        },
+        {
+          "@type": "City",
+          "name": "New Tampa"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Davis Islands",
+        "addressRegion": "FL",
+        "postalCode": "33606",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 27.9319,
+        "longitude": -82.4515
+      },
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=61565827048649",
+        "https://www.instagram.com/delightful.bean"
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "06:00",
+          "closes": "22:00"
+        }
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Mobile Coffee Cart for Corporate Events"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Wedding Coffee Bar Service"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Bridal Shower Coffee Catering"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Teacher Appreciation Day Coffee Service"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Employee Appreciation Day Coffee Bar"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Birthday Party Coffee Catering"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Community Event Coffee Services"
+          }
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Coffee Catering Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Espresso Drinks",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "MenuItem",
+                  "name": "Espresso"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "MenuItem",
+                  "name": "Cappuccino"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "MenuItem",
+                  "name": "Latte"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Sarah Johnson"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "The professional baristas and premium coffee selection elevated our corporate event at Tampa Convention Center. The personalized service made all the difference."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Michael Rivera"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Delightful Bean transformed our wedding reception at Tampa Yacht Club with their elegant setup and exceptional coffee. Our guests are still talking about it!"
+        }
+      ]
+    }
+    </script>
+    
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How far in advance should I book Delightful Bean for my event?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We recommend booking at least 4-6 weeks in advance for most events, and 3-6 months ahead for wedding dates during peak season in Davis Islands. This ensures we can secure your date and have adequate time to customize your coffee experience."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What areas around Davis Islands do you serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We proudly serve Davis Islands and surrounding areas including Tampa, South Tampa, Hyde Park, Harbour Island, Bayshore, Channelside, and throughout Hillsborough County."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's included in your mobile coffee bar service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our standard package includes our elegant mobile coffee cart, professional barista(s), premium coffee beans, specialty milk options, flavorings, all necessary equipment, cups, napkins, stirrers, and basic condiments. We also offer customizable add-ons including branded cups, specialty syrups, and coffee-based signature drinks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much space do you need for your coffee cart setup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our standard coffee cart setup requires approximately 8x8 feet of space. We also need access to a standard electrical outlet. For larger events, we may recommend additional space for queue management."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer any non-coffee options?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! While we specialize in premium coffee beverages, we also offer hot chocolate, chai tea lattes, matcha lattes, and a selection of artisanal teas to accommodate non-coffee drinkers at your Davis Islands event."
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Mobile Coffee Catering",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Delightful Bean",
+        "image": "https://www.delightfulbean.com/images/logo.jpg",
+      "telephone": "+18134197438",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "",
+          "addressLocality": "Davis Islands",
+          "addressRegion": "FL",
+          "postalCode": "33606",
+          "addressCountry": "US"
+        }
+      },
+      "areaServed": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 27.9319,
+          "longitude": -82.4515
+        },
+        "geoRadius": "50km"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Event planners, Wedding couples, Corporate event organizers, Community event coordinators"
+      }
+    }
+    </script>
+</head>
+<body class="bg-light-blue text-text font-sans antialiased">
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:p-4 focus:bg-primary focus:text-white focus:z-50">Skip to main content</a>
+    
+    <!-- Modern Header -->
+    <header class="w-full z-50 bg-white shadow-sm" role="banner">
+        <nav class="container mx-auto py-4" aria-label="Main Navigation">
+            <div class="flex justify-between items-center px-4">
+                <div class="flex items-center">
+                    <div class="ai-icon mr-2 text-lg font-bold" aria-hidden="true">DB</div>
+                    <a href="#" class="text-xl font-bold text-dark">
+                        <span class="text-secondary">DELIGHTFUL BEAN</span>
+                    </a>
+                </div>
+                
+                <div class="hidden md:flex space-x-8">
+                    <a href="#services" class="text-dark hover:text-secondary font-semibold px-4 py-2 border-b-2 border-transparent hover:border-secondary transition-all duration-300">Services</a>
+                    <a href="#testimonials" class="text-dark hover:text-secondary font-semibold px-4 py-2 border-b-2 border-transparent hover:border-secondary transition-all duration-300">Testimonials</a>
+                    <a href="#about" class="text-dark hover:text-secondary font-semibold px-4 py-2 border-b-2 border-transparent hover:border-secondary transition-all duration-300">About</a>
+                    <a href="#faq" class="text-dark hover:text-secondary font-semibold px-4 py-2 border-b-2 border-transparent hover:border-secondary transition-all duration-300">FAQ</a>
+                </div>
+                
+                <a href="https://www.delightfulbean.com/quote" class="bg-primary text-white py-2 px-4 rounded-lg text-sm" aria-label="Get a custom quote">
+                    Get a Quote
+                </a>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-button md:hidden focus:outline-none" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <i class="fas fa-bars text-2xl text-primary" aria-hidden="true"></i>
+                </button>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="mobile-menu hidden md:hidden mt-4 space-y-4 px-6 pb-4">
+                <a href="#services" class="block text-dark hover:text-secondary p-3 border-b border-gray-200 font-medium hover:bg-gray-50 transition-colors duration-300">
+                    <i class="fas fa-mug-hot mr-2 text-secondary" aria-hidden="true"></i> Services
+                </a>
+                <a href="#testimonials" class="block text-dark hover:text-secondary p-3 border-b border-gray-200 font-medium hover:bg-gray-50 transition-colors duration-300">
+                    <i class="fas fa-star mr-2 text-secondary" aria-hidden="true"></i> Testimonials
+                </a>
+                <a href="#about" class="block text-dark hover:text-secondary p-3 border-b border-gray-200 font-medium hover:bg-gray-50 transition-colors duration-300">
+                    <i class="fas fa-info-circle mr-2 text-secondary" aria-hidden="true"></i> About
+                </a>
+                <a href="#faq" class="block text-dark hover:text-secondary p-3 border-b border-gray-200 font-medium hover:bg-gray-50 transition-colors duration-300">
+                    <i class="fas fa-question-circle mr-2 text-secondary" aria-hidden="true"></i> FAQ
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section with Coffee Cart Visual -->
+        <section class="hero-section py-12 md:py-16">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="w-full md:w-1/2 mb-12 md:mb-0">
+                        <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-dark leading-tight mb-6">
+                            <span class="text-primary">Premium</span> Mobile<br />
+                            <span class="text-primary">Coffee Experience</span>
+                        </h1>
+                        <p class="text-xl text-gray-600 mb-10">
+                            Davis Islands' premier coffee catering service,<br />bringing artisanal coffee to your events in Tampa Bay.
+                        </p>
+                        <a href="https://www.delightfulbean.com/quote" class="cta-button inline-block" aria-label="Request a custom quote for your event">
+                            Get Your Custom Quote
+                        </a>
+                    </div>
+                    <div class="w-full md:w-1/2 flex justify-center">
+                        <img src="images/Delightful Bean Coffee Cart.png" 
+             alt="Delightful Bean Mobile Coffee Cart with premium espresso machine and elegant wood finishes in Davis Islands, FL" 
+                             class="w-4/5 md:w-3/4 object-cover rounded-xl shadow-2xl lazy-image"
+                             loading="lazy"
+                             width="600"
+                             height="450">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature Cards Section -->
+        <section class="py-16 -mt-20">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Feature 1 -->
+                    <div class="feature-card p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="rounded-full bg-light-blue p-3 mr-4">
+                                <i class="fas fa-coffee text-primary" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-dark">Artisanal Excellence</h3>
+                        </div>
+                        <p class="text-gray-600">
+                            We source our beans directly from sustainable farms and roast them locally in Davis Islands to ensure peak freshness and flavor for your event.
+                        </p>
+                    </div>
+                    
+                    <!-- Feature 2 -->
+                    <div class="feature-card p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="rounded-full bg-light-blue p-3 mr-4">
+                                <i class="fas fa-paint-brush text-primary" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-dark">Elegant Presentation</h3>
+                        </div>
+                        <p class="text-gray-600">
+                            Our stylish coffee cart and service equipment blend seamlessly with Davis Islands venues, enhancing your Tampa Bay event's visual appeal.
+                        </p>
+                    </div>
+                    
+                    <!-- Feature 3 -->
+                    <div class="feature-card p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="rounded-full bg-light-blue p-3 mr-4">
+                                <i class="fas fa-magic text-primary" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-dark">Custom Experience</h3>
+                        </div>
+                        <p class="text-gray-600">
+                            We tailor every aspect of our Tampa Bay coffee catering service to match your Davis Islands event's theme, from coffee selection to barista attire.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-16 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 text-dark relative inline-block mx-auto">
+                    <span class="relative z-10">Our Coffee Catering Services</span>
+                    <span class="absolute bottom-0 left-0 w-full h-3 bg-secondary/30 -z-10"></span>
+                </h2>
+                <p class="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
+                    Elevate your Davis Islands and Tampa Bay events with our customizable coffee experiences, expert baristas, and premium equipment.
+                </p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="md:col-span-3 mb-8">
+                    <img src="images/Cart Decor.jpg" 
+                         alt="Luxury mobile coffee cart setup with fresh flowers and custom signage for a Davis Islands wedding" 
+                         class="rounded-xl shadow-xl w-full h-64 object-cover lazy-image"
+                         loading="lazy"
+                         width="1200"
+                         height="400">
+                </div>
+                    
+                    <!-- Service 1 -->
+                    <div class="bg-light rounded-lg shadow-md p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+                        <div class="flex items-center mb-4">
+                            <div class="flex-shrink-0 h-12 w-12 flex items-center justify-center rounded-full bg-light-blue mr-4">
+                                <i class="fas fa-building text-primary" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-dark">Corporate Coffee Catering</h3>
+                        </div>
+                        <p class="text-gray-600">Impress your clients and team with our premium coffee service at Davis Islands meetings, conferences, and corporate gatherings. Perfect for employee appreciation days and team-building events throughout Tampa Bay.</p>
+                    </div>
+                    
+                    <!-- Service 2 -->
+                    <div class="bg-light rounded-lg shadow-md p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+                        <div class="flex items-center mb-4">
+                            <div class="flex-shrink-0 h-12 w-12 flex items-center justify-center rounded-full bg-light-blue mr-4">
+                                <i class="fas fa-heart text-primary" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-dark">Wedding Coffee Bars</h3>
+                        </div>
+                        <p class="text-gray-600">Add a unique touch to your special day with our elegant mobile coffee bar and custom menu options. Ideal for Davis Islands weddings at venues like Tampa Yacht Club, bridal showers, and engagement celebrations.</p>
+                    </div>
+                    
+                    <!-- Service 3 -->
+                    <div class="bg-light rounded-lg shadow-md p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+                        <div class="flex items-center mb-4">
+                            <div class="flex-shrink-0 h-12 w-12 flex items-center justify-center rounded-full bg-light-blue mr-4">
+                                <i class="fas fa-users text-primary" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-dark">Community Event Coffee</h3>
+                        </div>
+                        <p class="text-gray-600">Enhance Davis Islands fundraisers, farmers markets, and local Tampa Bay gatherings with our specialty coffee offerings. We also cater to school events and teacher appreciation days across Hillsborough County.</p>
+                    </div>
+                </div>
+                
+                <div class="mt-12 text-center">
+                    <h3 class="text-2xl font-semibold mb-6 text-primary">Special Occasions</h3>
+                    <p class="text-gray-600 mb-8 max-w-3xl mx-auto">
+                        Our mobile espresso bar is perfect for all types of celebrations and private parties in Davis Islands and Tampa Bay. From birthday parties to graduation celebrations, our coffee cart rental service brings professional baristas and premium coffee directly to your venue.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+                        <div class="p-4 bg-light-blue/50 rounded-lg shadow-sm">
+                            <i class="fas fa-gift text-secondary text-2xl mb-2" aria-hidden="true"></i>
+                            <h4 class="font-semibold text-dark">Private Parties</h4>
+                        </div>
+                        <div class="p-4 bg-light-blue/50 rounded-lg shadow-sm">
+                            <i class="fas fa-glass-cheers text-secondary text-2xl mb-2" aria-hidden="true"></i>
+                            <h4 class="font-semibold text-dark">Bridal Showers</h4>
+                        </div>
+                        <div class="p-4 bg-light-blue/50 rounded-lg shadow-sm">
+                            <i class="fas fa-apple-alt text-secondary text-2xl mb-2" aria-hidden="true"></i>
+                            <h4 class="font-semibold text-dark">Teacher Appreciation</h4>
+                        </div>
+                        <div class="p-4 bg-light-blue/50 rounded-lg shadow-sm">
+                            <i class="fas fa-award text-secondary text-2xl mb-2" aria-hidden="true"></i>
+                            <h4 class="font-semibold text-dark">Employee Recognition</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 bg-light-blue">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 text-dark relative inline-block mx-auto">
+                <span class="relative z-10">What Our Clients Say</span>
+                <span class="absolute bottom-0 left-0 w-full h-3 bg-secondary/30 -z-10"></span>
+            </h2>
+            <p class="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
+                Hear from our satisfied clients who have experienced the Delightful Bean difference at their Davis Islands and Tampa Bay events.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- Testimonial 1 -->
+                <div class="bg-white rounded-lg shadow-md p-6 relative">
+                    <div class="text-secondary text-4xl absolute -top-4 left-6">"</div>
+                    <p class="text-gray-600 mb-4 pt-4">
+                        The professional baristas and premium coffee selection elevated our corporate event at Tampa Convention Center. The personalized service made all the difference.
+                    </p>
+                    <div class="flex items-center">
+                        <div class="rounded-full bg-light-blue p-2 mr-3">
+                            <i class="fas fa-user text-primary" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-dark">Sarah Johnson</h4>
+                            <p class="text-sm text-gray-500">Corporate Event, Davis Islands</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white rounded-lg shadow-md p-6 relative">
+                    <div class="text-secondary text-4xl absolute -top-4 left-6">"</div>
+                    <p class="text-gray-600 mb-4 pt-4">
+                        Delightful Bean transformed our wedding reception at Tampa Yacht Club with their elegant setup and exceptional coffee. Our guests are still talking about it!
+                    </p>
+                    <div class="flex items-center">
+                        <div class="rounded-full bg-light-blue p-2 mr-3">
+                            <i class="fas fa-user text-primary" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-dark">Michael Rivera</h4>
+                            <p class="text-sm text-gray-500">Wedding, Tampa Yacht Club</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="w-full md:w-1/2 mb-12 md:mb-0 pr-0 md:pr-10">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6 text-dark">
+                        About <span class="text-primary">Delightful Bean</span>
+                    </h2>
+                    <p class="text-gray-600 mb-6">
+                        Founded in Davis Islands with a passion for exceptional coffee experiences, Delightful Bean brings the craft of artisanal coffee directly to your Tampa Bay events. Our journey began when we recognized the need for premium mobile coffee services that go beyond the ordinary.
+                    </p>
+                    <p class="text-gray-600 mb-6">
+                        Our team of professional baristas is dedicated to creating memorable coffee experiences with attention to every detail, from bean selection to the final presentation. We believe that every event deserves a touch of coffee excellence.
+                    </p>
+                    <p class="text-gray-600">
+                        When you choose Delightful Bean, you're not just getting coffee service; you're partnering with coffee enthusiasts who are committed to enhancing your event with the perfect cup, served with style and precision.
+                    </p>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <div class="grid grid-cols-2 gap-4">
+                        <img src="images/Esspresso.jpg" alt="Barista preparing espresso shot at a Davis Islands wedding" class="rounded-lg shadow-md object-cover h-48 w-full lazy-image" loading="lazy">
+                        <img src="images/Coffee Cup.jpg" alt="Custom coffee cup with latte art for a Tampa Bay corporate event" class="rounded-lg shadow-md object-cover h-48 w-full lazy-image" loading="lazy">
+                        <img src="images/Cart Decor.jpg" alt="Decorated coffee cart setup for a private event in Davis Islands" class="rounded-lg shadow-md object-cover h-48 w-full lazy-image" loading="lazy">
+                        <img src="images/Espresso Machine.jpg" alt="Premium espresso machine used for mobile coffee catering in Tampa Bay" class="rounded-lg shadow-md object-cover h-48 w-full lazy-image" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16 bg-light-blue">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 text-dark relative inline-block mx-auto">
+                <span class="relative z-10">Frequently Asked Questions</span>
+                <span class="absolute bottom-0 left-0 w-full h-3 bg-secondary/30 -z-10"></span>
+            </h2>
+            <p class="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
+                Have questions about our mobile coffee catering services in Davis Islands and Tampa Bay? Find answers to common questions below.
+            </p>
+            
+            <div class="max-w-4xl mx-auto">
+                <!-- FAQ Item 1 -->
+                <div class="mb-6 bg-white rounded-lg shadow-sm overflow-hidden">
+                    <div class="p-4 border-b border-gray-100">
+                        <h3 class="text-lg font-semibold text-dark">How far in advance should I book Delightful Bean for my event?</h3>
+                    </div>
+                    <div class="p-4 bg-white">
+                        <p class="text-gray-600">
+                            We recommend booking at least 4-6 weeks in advance for most events, and 3-6 months ahead for wedding dates during peak season in Davis Islands. This ensures we can secure your date and have adequate time to customize your coffee experience.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="mb-6 bg-white rounded-lg shadow-sm overflow-hidden">
+                    <div class="p-4 border-b border-gray-100">
+                        <h3 class="text-lg font-semibold text-dark">What areas around Davis Islands do you serve?</h3>
+                    </div>
+                    <div class="p-4 bg-white">
+                        <p class="text-gray-600">
+                            We proudly serve Davis Islands and surrounding areas including Tampa, South Tampa, Hyde Park, Harbour Island, Bayshore, Channelside, and throughout Hillsborough County.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="mb-6 bg-white rounded-lg shadow-sm overflow-hidden">
+                    <div class="p-4 border-b border-gray-100">
+                        <h3 class="text-lg font-semibold text-dark">What's included in your mobile coffee bar service?</h3>
+                    </div>
+                    <div class="p-4 bg-white">
+                        <p class="text-gray-600">
+                            Our standard package includes our elegant mobile coffee cart, professional barista(s), premium coffee beans, specialty milk options, flavorings, all necessary equipment, cups, napkins, stirrers, and basic condiments. We also offer customizable add-ons including branded cups, specialty syrups, and coffee-based signature drinks.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div class="mb-6 bg-white rounded-lg shadow-sm overflow-hidden">
+                    <div class="p-4 border-b border-gray-100">
+                        <h3 class="text-lg font-semibold text-dark">How much space do you need for your coffee cart setup?</h3>
+                    </div>
+                    <div class="p-4 bg-white">
+                        <p class="text-gray-600">
+                            Our standard coffee cart setup requires approximately 8x8 feet of space. We also need access to a standard electrical outlet. For larger events, we may recommend additional space for queue management.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 5 -->
+                <div class="mb-6 bg-white rounded-lg shadow-sm overflow-hidden">
+                    <div class="p-4 border-b border-gray-100">
+                        <h3 class="text-lg font-semibold text-dark">Do you offer any non-coffee options?</h3>
+                    </div>
+                    <div class="p-4 bg-white">
+                        <p class="text-gray-600">
+                            Yes! While we specialize in premium coffee beverages, we also offer hot chocolate, chai tea lattes, matcha lattes, and a selection of artisanal teas to accommodate non-coffee drinkers at your Davis Islands event.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-10">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between mb-8">
+                <div class="mb-6 md:mb-0">
+                    <div class="flex items-center mb-4">
+                        <div class="ai-icon mr-2 text-lg font-bold bg-secondary" aria-hidden="true">DB</div>
+                        <span class="text-xl font-bold">DELIGHTFUL BEAN</span>
+                    </div>
+                    <p class="text-sm text-gray-300 max-w-xs">
+                        Davis Islands' premier mobile coffee catering service, bringing artisanal coffee experiences to events throughout Tampa Bay.
+                    </p>
+                </div>
+                
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+                    <p class="mb-2"><i class="fas fa-phone mr-2 text-secondary"></i> (813) 419-7438</p>
+                    <p class="mb-2"><i class="fas fa-envelope mr-2 text-secondary"></i> info@delightfulbean.com</p>
+                    <p><i class="fas fa-map-marker-alt mr-2 text-secondary"></i> Davis Islands, FL 33606</p>
+                </div>
+                
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#services" class="hover:text-secondary transition-colors">Services</a></li>
+                        <li><a href="#testimonials" class="hover:text-secondary transition-colors">Testimonials</a></li>
+                        <li><a href="#about" class="hover:text-secondary transition-colors">About Us</a></li>
+                        <li><a href="#faq" class="hover:text-secondary transition-colors">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/profile.php?id=61565827048649" target="_blank" class="hover:text-secondary transition-colors" aria-label="Facebook">
+                            <i class="fab fa-facebook-f text-2xl"></i>
+                        </a>
+                        <a href="https://www.instagram.com/delightful.bean" target="_blank" class="hover:text-secondary transition-colors" aria-label="Instagram">
+                            <i class="fab fa-instagram text-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
+                <p>&copy; 2025 Delightful Bean. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
