@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary Meta Tags - Optimized for Davis Island -->
+    <title>Delightful Bean Coffee Cart | Davis Island FL Coffee Cart & Mobile Catering</title>
+    <meta name="description" content="Davis Island's premier mobile coffee cart service, Delightful Bean, offers professional baristas for corporate events, weddings, and private parties throughout the Davis Island, FL area. Book our luxury mobile espresso bar today!">
+    <meta name="keywords" content="Davis Island coffee cart, mobile coffee Davis Island, coffee catering Davis Island, Davis Island event coffee, corporate coffee Davis Island, wedding coffee bar Davis Island, Davis Island FL coffee service, premium coffee service, party coffee service Davis Island, bridal shower coffee Davis Island, teacher appreciation coffee Davis Island, employee appreciation coffee bar Davis Island, mobile espresso bar Davis Island, coffee cart rental Davis Island, luxury coffee service Davis Island, event coffee service Davis Island, private party coffee Davis Island, coffee bar for events Davis Island, specialty coffee catering Davis Island, Davis Island mobile coffee">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.davisislandcoffeecart.fyi/"> <!-- Updated to Davis Island-specific URL -->
+
+    <!-- Geo Tags - Updated for Davis Island -->
+    <meta name="geo.region" content="US-FL">
+    <meta name="geo.placename" content="Davis Island">
+    <meta name="geo.position" content="27.9177;-82.4632"> <!-- Davis Island Coordinates -->
+    <meta name="ICBM" content="27.9177, -82.4632"> <!-- Davis Island Coordinates -->
+
+    <!-- Google Verification -->
+    <meta name="google-site-verification" content="eGvUzwfnPih8ma4HCovqwBbkbOai6nV8K-QrPrjwV1Y" /> <!-- Keep existing verification -->
+
+
+    <!-- Open Graph / Facebook - Updated for Davis Island -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.delightfulbean.com/"> <!-- Assuming OG URL remains the same for the business -->
+    <meta property="og:title" content="Delightful Bean | Davis Island Coffee Cart & Mobile Experience">
+    <meta property="og:description" content="Book Davis Island's premier mobile coffee service for your next event. Professional baristas, artisanal coffee, elegant presentation.">
+    <meta property="og:image" content="images/Delightful Bean Coffee Cart.png"> <!-- Updated to relative path -->
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter - Updated for Davis Island -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.delightfulbean.com/"> <!-- Assuming Twitter URL remains the same -->
+    <meta property="twitter:title" content="Delightful Bean | Davis Island Coffee Cart & Mobile Experience">
+    <meta property="twitter:description" content="Book Davis Island's premier mobile coffee service for your next event. Professional baristas, artisanal coffee, elegant presentation.">
+    <meta property="twitter:image" content="images/Delightful Bean Coffee Cart.png"> <!-- Updated to relative path -->
+
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style">
+
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+        /* Custom color variables - Coffee Theme */
+        :root {
+            --primary: #5d4037;    /* Dark brown */
+            --secondary: #e28f64;  /* Orange-brown */
+            --accent: #ffab91;     /* Peach accent */
+            --light-blue: #f5f5f0; /* Light cream background */
+            --dark: #000000;       /* Black - updated for black footer */
+            --text: #2c3e50;       /* Text color */
+        }
+
+        .bg-primary { background-color: var(--primary); }
+        .bg-secondary { background-color: var(--secondary); }
+        .bg-accent { background-color: var(--accent); }
+        .bg-light-blue { background-color: var(--light-blue); }
+        .text-primary { color: var(--primary); }
+        .text-secondary { color: var(--secondary); }
+        .text-accent { color: var(--accent); }
+        .text-dark { color: var(--dark); }
+        .border-secondary { border-color: var(--secondary); }
+        .hover\:bg-secondary:hover { background-color: var(--secondary); }
+        .hover\:text-white:hover { color: white; }
+
+        /* Custom classes */
+        .hero-section {
+            min-height: 80vh;
+            background: linear-gradient(135deg, #f5f5f0 0%, #e8e8e0 100%);
+        }
+        .feature-card {
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .ai-icon {
+            background-color: var(--secondary);
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .cta-button {
+            background-color: var(--secondary);
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+        .cta-button:hover {
+            background-color: #d65f41;
+            transform: scale(1.05);
+        }
+
+        /* Accessibility improvements */
+        a:focus, button:focus {
+            outline: 2px solid var(--secondary);
+            outline-offset: 2px;
+        }
+
+        /* Lazy loading for images */
+        .lazy-image {
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .lazy-image.loaded {
+            opacity: 1;
+        }
+    </style>
+
+    <!-- Schema.org JSON-LD structured data - Enhanced and updated for Davis Island -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Delightful Bean",
+      "description": "Davis Island's premier mobile coffee experience featuring professional baristas for corporate events, weddings, bridal showers, teacher appreciation days, and private parties throughout the Davis Island, FL area.",
+      "url": "https://www.delightfulbean.com",
+      "telephone": "+18134197438", // Using the consistent number
+      "email": "info@delightfulbean.com",
+      "priceRange": "$$",
+      "image": "images/Delightful Bean Coffee Cart.png",
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Davis Island"
+        },
+        {
+          "@type": "City",
+          "name": "Tampa"
+        },
+        {
+          "@type": "City",
+          "name": "Hyde Park"
+        },
+        {
+          "@type": "City",
+          "name": "Harbour Island"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Hillsborough County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Pinellas County"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Davis Island",
+        "addressRegion": "FL",
+        "postalCode": "33606", // Davis Island postal code
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 27.9177,
+        "longitude": -82.4632 // Davis Island Coordinates
+      },
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=61565827048649",
+        "https://www.instagram.com/delightful.bean"
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "06:00",
+          "closes": "22:00"
+        }
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Mobile Coffee Cart for Corporate Events in Davis Island"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Davis Island Wedding Coffee Bar Service"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Bridal Shower Coffee Catering in Davis Island"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Teacher Appreciation Day Coffee Service in Davis Island"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Employee Appreciation Day Coffee Bar in Davis Island"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Birthday Party Coffee Catering Davis Island"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Community Event Coffee Services Davis Island"
+          }
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Coffee Catering Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Espresso Drinks",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "MenuItem",
+                  "name": "Espresso"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "MenuItem",
+                  "name": "Cappuccino"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "MenuItem",
+                  "name": "Latte"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [ // Adapted placeholder reviews for Davis Island
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Sophia Martinez"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Delightful Bean's coffee cart was a huge hit at our Davis Island corporate summit! The professional service and delicious coffee impressed everyone. Highly recommended for any business event in Davis Island."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Michael & Emma Johnson"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Our wedding coffee bar from Delightful Bean was absolutely perfect! Guests loved the special touch, and the lattes were amazing. Made our Davis Island wedding even more memorable."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Thomas Wilson"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Having Delightful Bean at our Davis Island community festival was fantastic. They were easy to work with, and everyone raved about the coffee. A real crowd-pleaser for Davis Island events!"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "3",
+        "bestRating": "5"
+      }
+    }
+    </script>
+
+    <!-- FAQ Schema - Updated for Davis Island -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+         {
+          "@type": "Question",
+          "name": "How far in advance should I book Delightful Bean for my event in Davis Island?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We recommend booking at least 4-6 weeks in advance for most events in Davis Island, and 3-6 months ahead for wedding dates during peak season. This ensures we can secure your date and have adequate time to customize your coffee experience."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What areas around Davis Island do you serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We proudly serve Davis Island and surrounding areas including Tampa, Hyde Park, Harbour Island, Bayshore, and throughout Hillsborough County."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's included in your mobile coffee bar service for Davis Island events?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our standard package includes our elegant mobile coffee cart, professional barista(s), premium coffee beans, specialty milk options, flavorings, all necessary equipment, cups, napkins, stirrers, and basic condiments. We also offer customizable add-ons for your Davis Island event including branded cups, specialty syrups, and coffee-based signature drinks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much space do you need for your coffee cart setup in Davis Island?", // Updated from source file's "location set-up requirements"
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our standard coffee cart setup requires approximately 8x8 feet of space on a flat surface. We also need access to a standard 110 volt electrical outlet. If power is not available, we can provide a generator for an additional cost." // Combined info
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer any non-coffee options for Davis Island events?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! While we specialize in premium coffee beverages, we also offer hot chocolate, chai tea lattes, matcha lattes, and a selection of artisanal teas to accommodate non-coffee drinkers at your Davis Island event."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide insurance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! We carry general liability insurance to cover unforeseen events."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's your booking & cancellation policy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We require a 50% deposit to confirm your booking. The remaining payment is due by the event date. Refunds are provided if you cancel 90 days from your event date and 50% of the deposit if you cancel more than 60 days from your event. Since our seasons book in advance, it’s hard to fill late cancellations so, unfortunately, cancellations made within 60 days of your event will not be refunded."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if my event gets rained out?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We can not accommodate cancellations due to rain. We will work with you to find the best available option to provide cover for the bar in the event of inclement weather."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Local Business Schema (Service specific) - Updated for Davis Island -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Mobile Coffee Catering",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Delightful Bean",
+        "image": "images/Delightful Bean Coffee Cart.png",
+        "telephone": "+18134197438", // Using the consistent number
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "",
+          "addressLocality": "Davis Island",
+          "addressRegion": "FL",
+          "postalCode": "33606", // Davis Island postal code
+          "addressCountry": "US"
+        }
+      },
+      "areaServed": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 27.9177,
+          "longitude": -82.4632 // Davis Island Coordinates
+        },
+        "geoRadius": "96560.6" // 60 miles in meters, matching FAQ
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Event planners in Davis Island, Wedding couples in Davis Island, Corporate event organizers in Davis Island, Community event coordinators in Davis Island"
+      }
+    }
+    </script>
+</head>
+<body class="bg-light-blue text-text font-sans antialiased">
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:p-4 focus:bg-primary focus:text-white focus:z-50">Skip to main content</a>
+
+    <!-- Modern Header -->
+    <header class="w-full z-50 bg-white shadow-sm" role="banner">
+        <nav class="container mx-auto py-4" aria-label="Main Navigation">
+            <div class="flex justify-between items-center px-4">
+                <div class="flex items-center">
+                    <div class="ai-icon mr-2 text-lg font-bold" aria-hidden="true">DB</div>
+                    <a href="#" class="text-xl font-bold text-dark">
+                        <span class="text-secondary">DELIGHTFUL BEAN</span>
+                    </a>
+                </div>
+
+                <div class="hidden md:flex space-x-8">
+                    <a href="#services" class="text-dark hover:text-secondary font-semibold px-4 py-2 border-b-2 border-transparent hover:border-secondary transition-all duration-300">Services</a>
+                    <a href="#testimonials" class="text-dark hover:text-secondary font-semibold px-4 py-2 border-b-2 border-transparent hover:border-secondary transition-all duration-300">Testimonials</a>
+                    <a href="#about" class="text-dark hover:text-secondary font-semibold px-4 py-2 border-b-2 border-transparent hover:border-secondary transition-all duration-300">About</a>
+                    <a href="#faq" class="text-dark hover:text-secondary font-semibold px-4 py-2 border-b-2 border-transparent hover:border-secondary transition-all duration-300">FAQ</a>
+                </div>
+
+                <a href="https://www.delightfulbean.com/quote" class="bg-primary text-white py-2 px-4 rounded-lg text-sm" aria-label="Get a custom quote">
+                    Get a Quote
+                </a>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-button md:hidden focus:outline-none" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <i class="fas fa-bars text-2xl text-primary" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="mobile-menu hidden md:hidden mt-4 space-y-4 px-6 pb-4">
+                <a href="#services" class="block text-dark hover:text-secondary p-3 border-b border-gray-200 font-medium hover:bg-gray-50 transition-colors duration-300">
+                    <i class="fas fa-mug-hot mr-2 text-secondary" aria-hidden="true"></i> Services
+                </a>
+                <a href="#testimonials" class="block text-dark hover:text-secondary p-3 border-b border-gray-200 font-medium hover:bg-gray-50 transition-colors duration-300">
+                    <i class="fas fa-star mr-2 text-secondary" aria-hidden="true"></i> Testimonials
+                </a>
+                <a href="#about" class="block text-dark hover:text-secondary p-3 border-b border-gray-200 font-medium hover:bg-gray-50 transition-colors duration-300">
+                    <i class="fas fa-info-circle mr-2 text-secondary" aria-hidden="true"></i> About
+                </a>
+                <a href="#faq" class="block text-dark hover:text-secondary p-3 border-b border-gray-200 font-medium hover:bg-gray-50 transition-colors duration-300">
+                    <i class="fas fa-question-circle mr-2 text-secondary" aria-hidden="true"></i> FAQ
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section with Coffee Cart Visual - Updated for Davis Island -->
+        <section class="hero-section py-12 md:py-16">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="w-full md:w-1/2 mb-12 md:mb-0">
+                        <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-dark leading-tight mb-6">
+                            <span class="text-primary">Premium</span> Mobile<br />
+                            <span class="text-primary">Coffee Experience in Davis Island</span>
+                        </h1>
+                        <p class="text-xl text-gray-600 mb-10">
+                            Davis Island's premier coffee catering service,<br />bringing artisanal coffee to your events in the Davis Island, FL area.
+                        </p>
+                        <a href="https://www.delightfulbean.com/quote" class="cta-button inline-block" aria-label="Request a custom quote for your Davis Island event">
+                            Get Your Custom Quote
+                        </a>
+                    </div>
+                    <div class="w-full md:w-1/2 flex justify-center">
+                        <img src="images/Delightful Bean Coffee Cart.png"
+                             alt="Delightful Bean Mobile Coffee Cart with premium espresso machine and elegant wood finishes, serving Davis Island, FL"
+                             class="w-4/5 md:w-3/4 object-cover rounded-xl shadow-2xl lazy-image"
+                             loading="lazy"
+                             width="600"
+                             height="450">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature Cards Section - Updated for Davis Island -->
+        <section class="py-16 -mt-20">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Feature 1 -->
+                    <div class="feature-card p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="rounded-full bg-light-blue p-3 mr-4">
+                                <i class="fas fa-coffee text-primary" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-dark">Artisanal Excellence</h3>
+                        </div>
+                        <p class="text-gray-600">
+                            We source our beans directly from sustainable farms and roast them locally to ensure peak freshness and flavor for your Davis Island event.
+                        </p>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="feature-card p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="rounded-full bg-light-blue p-3 mr-4">
+                                <i class="fas fa-paint-brush text-primary" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-dark">Elegant Presentation</h3>
+                        </div>
+                        <p class="text-gray-600">
+                            Our stylish coffee cart and service equipment blend seamlessly with Davis Island venues, enhancing your event's visual appeal.
+                        </p>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="feature-card p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="rounded-full bg-light-blue p-3 mr-4">
+                                <i class="fas fa-magic text-primary" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-dark">Custom Experience</h3>
+                        </div>
+                        <p class="text-gray-600">
+                            We tailor every aspect of our Davis Island coffee catering service to match your event's theme, from coffee selection to barista attire.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section - Updated for Davis Island -->
+        <section id="services" class="py-16 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 text-dark relative inline-block mx-auto">
+                    <span class="relative z-10">Our Davis Island Coffee Catering Services</span>
+                    <span class="absolute bottom-0 left-0 w-full h-3 bg-secondary/30 -z-10"></span>
+                </h2>
+                <p class="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
+                    Elevate your Davis Island events with our customizable coffee experiences, expert baristas, and premium equipment.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="md:col-span-3 mb-8">
+                    <img src="images/Delightful Bean Coffee Cart.png"
+                         alt="Delightful Bean Mobile Coffee Cart setup for an event in Davis Island, FL"
+                         class="rounded-xl shadow-xl w-full h-64 object-cover lazy-image"
+                         loading="lazy"
+                         width="1200"
+                         height="400">
+                </div>
+
+                    <!-- Service 1 -->
+                    <div class="bg-light rounded-lg shadow-md p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+                        <div class="flex items-center mb-4">
+                            <div class="flex-shrink-0 h-12 w-12 flex items-center justify-center rounded-full bg-light-blue mr-4">
+                                <i class="fas fa-building text-primary" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-dark">Corporate Coffee Catering in Davis Island</h3>
+                        </div>
+                        <p class="text-gray-600">Impress your clients and team with our premium coffee service at Davis Island meetings, conferences, and corporate gatherings. Perfect for employee appreciation days and team-building events.</p>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="bg-light rounded-lg shadow-md p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+                        <div class="flex items-center mb-4">
+                            <div class="flex-shrink-0 h-12 w-12 flex items-center justify-center rounded-full bg-light-blue mr-4">
+                                <i class="fas fa-heart text-primary" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-dark">Davis Island Wedding Coffee Bars</h3>
+                        </div>
+                        <p class="text-gray-600">Add a unique touch to your special day in Davis Island with our elegant mobile coffee bar and custom menu options. Ideal for weddings, bridal showers, and engagement celebrations in the Davis Island area.</p>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="bg-light rounded-lg shadow-md p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+                        <div class="flex items-center mb-4">
+                            <div class="flex-shrink-0 h-12 w-12 flex items-center justify-center rounded-full bg-light-blue mr-4">
+                                <i class="fas fa-users text-primary" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-dark">Community Event Coffee in Davis Island</h3>
+                        </div>
+                        <p class="text-gray-600">Enhance Davis Island fundraisers, farmers markets, and local gatherings with our specialty coffee offerings. We also cater to school events and teacher appreciation days in the Davis Island community.</p>
+                    </div>
+                </div>
+
+                <div class="mt-12 text-center">
+                    <h3 class="text-2xl font-semibold mb-6 text-primary">Special Occasions in Davis Island</h3>
+                    <p class="text-gray-600 mb-8 max-w-3xl mx-auto">
+                        Our mobile espresso bar is perfect for all types of celebrations and private parties in Davis Island. From birthday parties to graduation celebrations, our coffee cart rental service brings professional baristas and premium coffee directly to your Davis Island venue.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+                        <div class="p-4 bg-light-blue/50 rounded-lg shadow-sm">
+                            <i class="fas fa-gift text-secondary text-2xl mb-2" aria-hidden="true"></i>
+                            <h4 class="font-semibold text-dark">Private Parties</h4>
+                        </div>
+                        <div class="p-4 bg-light-blue/50 rounded-lg shadow-sm">
+                            <i class="fas fa-glass-cheers text-secondary text-2xl mb-2" aria-hidden="true"></i>
+                            <h4 class="font-semibold text-dark">Bridal Showers</h4>
+                        </div>
+                        <div class="p-4 bg-light-blue/50 rounded-lg shadow-sm">
+                            <i class="fas fa-apple-alt text-secondary text-2xl mb-2" aria-hidden="true"></i>
+                            <h4 class="font-semibold text-dark">Teacher Appreciation</h4>
+                        </div>
+                        <div class="p-4 bg-light-blue/50 rounded-lg shadow-sm">
+                            <i class="fas fa-award text-secondary text-2xl mb-2" aria-hidden="true"></i>
+                            <h4 class="font-semibold text-dark">Employee Recognition</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials Section - Updated Design & Location -->
+        <section id="testimonials" class="py-16 bg-light-blue">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-dark mb-4">What Our Clients Say</h2>
+                <p class="text-gray-600 mb-12 text-lg">Don't just take our word for it - hear from our satisfied customers in Davis Island</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Testimonial 1 (Adapted) -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg text-left flex flex-col justify-between border-b-4 border-secondary">
+                        <div>
+                            <div class="flex justify-start mb-3">
+                                <i class="fas fa-star text-yellow-400"></i>
+                                <i class="fas fa-star text-yellow-400"></i>
+                                <i class="fas fa-star text-yellow-400"></i>
+                                <i class="fas fa-star text-yellow-400"></i>
+                                <i class="fas fa-star text-yellow-400"></i>
+                            </div>
+                            <p class="text-gray-600 italic mb-6 text-sm">"Delightful Bean's coffee cart was a huge hit at our Davis Island corporate summit! The professional service and delicious coffee impressed everyone. Highly recommended for any business event in the Davis Island area."</p>
+                        </div>
+                        <div class="flex items-center mt-auto">
+                            <i class="fas fa-building text-primary text-2xl mr-3"></i>
+                            <div>
+                                <p class="font-semibold text-dark">Sophia Martinez</p>
+                                <p class="text-xs text-gray-500">Event Coordinator, Davis Island Business Hub (Example)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 (Adapted) -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg text-left flex flex-col justify-between border-b-4 border-secondary">
+                        <div>
+                            <div class="flex justify-start mb-3">
+                                <i class="fas fa-star text-yellow-400"></i>
+                                <i class="fas fa-star text-yellow-400"></i>
+                                <i class="fas fa-star text-yellow-400"></i>
+                                <i class="fas fa-star text-yellow-400"></i>
+                                <i class="fas fa-star text-yellow-400"></i>
+                            </div>
+                            <p class="text-gray-600 italic mb-6 text-sm">"Our wedding coffee bar from Delightful Bean was absolutely perfect! Guests loved the special touch, and the lattes were amazing. Made our Davis Island wedding even more memorable."</p>
+                        </div>
+                        <div class="flex items-center mt-auto">
+                             <i class="fas fa-heart text-primary text-2xl mr-3"></i>
+                            <div>
+                                <p class="font-semibold text-dark">Michael & Emma Johnson</p>
+                                <p class="text-xs text-gray-500">Newlyweds, Davis Island, FL</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 (Adapted) -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg text-left flex flex-col justify-between border-b-4 border-secondary">
+                        <div>
+                            <div class="flex justify-start mb-3">
+                                <i class="fas fa-star text-yellow-400"></i>
+                                <i class="fas fa-star text-yellow-400"></i>
+                                <i class="fas fa-star text-yellow-400"></i>
+                                <i class="fas fa-star text-yellow-400"></i>
+                                <i class="fas fa-star text-yellow-400"></i>
+                            </div>
+                            <p class="text-gray-600 italic mb-6 text-sm">"Having Delightful Bean at our Davis Island community festival was fantastic. They were easy to work with, and everyone raved about the coffee. A real crowd-pleaser for Davis Island events!"</p>
+                        </div>
+                        <div class="flex items-center mt-auto">
+                            <i class="fas fa-users text-primary text-2xl mr-3"></i>
+                            <div>
+                                <p class="font-semibold text-dark">Thomas Wilson</p>
+                                <p class="text-xs text-gray-500">Community Organizer, Davis Island, FL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section - Updated for Davis Island -->
+        <section id="about" class="py-16 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="w-full md:w-1/2 mb-8 md:mb-0 md:pr-12">
+                        <img src="images/Esspresso.jpg"
+                             alt="Delightful Bean coffee cart setup with espresso machine, grinder, and syrups in Davis Island"
+                             class="rounded-xl shadow-xl w-full object-cover lazy-image"
+                             loading="lazy"
+                             width="600"
+                             height="450">
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <h2 class="text-3xl md:text-4xl font-bold text-dark mb-6">
+                            About <span class="text-secondary">Delightful Bean</span> - Your Davis Island Coffee Experts
+                        </h2>
+                        <p class="text-gray-600 mb-4">
+                            Delightful Bean was born from a passion for exceptional coffee and memorable experiences. We believe that every event, big or small, deserves the warmth and sophistication that only a premium mobile coffee service can provide. Based in Davis Island, FL, we are dedicated to serving the entire Davis Island area with unparalleled quality and service. Learn more about our full story and offerings at <a href="https://www.delightfulbean.com/" class="text-secondary hover:underline">DelightfulBean.com</a>.
+                        </p>
+                        <p class="text-gray-600 mb-6">
+                            Our team of professional baristas is trained not just to make delicious coffee, but to create a welcoming atmosphere for your guests. We use locally roasted, specialty-grade beans and top-of-the-line equipment to ensure every cup is perfect. From intimate gatherings to large corporate functions in Davis Island, we're here to make your event unforgettable.
+                        </p>
+                        <a href="https://www.delightfulbean.com/quote" class="cta-button inline-block" aria-label="Learn more about our Davis Island coffee catering services">
+                            Book Your Davis Island Event
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section - Updated for Davis Island -->
+        <section id="faq" class="py-16 bg-light-blue">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-dark relative inline-block mx-auto">
+                    <span class="relative z-10">Frequently Asked Questions</span>
+                    <span class="absolute bottom-0 left-0 w-full h-3 bg-secondary/30 -z-10"></span>
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6"> <!-- Grid layout for FAQs -->
+                    <!-- FAQ items using details/summary for dropdown -->
+                    <details class="bg-white p-4 rounded-lg shadow cursor-pointer group">
+                        <summary class="font-semibold text-dark flex justify-between items-center list-none">
+                            How far in advance should I book Delightful Bean for my event in Davis Island?
+                            <i class="fas fa-chevron-down transform transition-transform duration-200 group-open:rotate-180"></i>
+                        </summary>
+                        <p class="text-gray-600 mt-2">We recommend booking at least 4-6 weeks in advance for most events in Davis Island, and 3-6 months ahead for wedding dates during peak season. This ensures we can secure your date and have adequate time to customize your coffee experience.</p>
+                    </details>
+                    <details class="bg-white p-4 rounded-lg shadow cursor-pointer group">
+                        <summary class="font-semibold text-dark flex justify-between items-center list-none">
+                            What areas around Davis Island do you serve?
+                            <i class="fas fa-chevron-down transform transition-transform duration-200 group-open:rotate-180"></i>
+                        </summary>
+                        <p class="text-gray-600 mt-2">We proudly serve Davis Island and surrounding areas including Tampa, Hyde Park, Harbour Island, Bayshore, and throughout Hillsborough County.</p>
+                    </details>
+                    <details class="bg-white p-4 rounded-lg shadow cursor-pointer group">
+                        <summary class="font-semibold text-dark flex justify-between items-center list-none">
+                            What's included in your mobile coffee bar service for Davis Island events?
+                            <i class="fas fa-chevron-down transform transition-transform duration-200 group-open:rotate-180"></i>
+                        </summary>
+                        <p class="text-gray-600 mt-2">Our standard package includes our elegant mobile coffee cart, professional barista(s), premium coffee beans, specialty milk options, flavorings, all necessary equipment, cups, napkins, stirrers, and basic condiments. We also offer customizable add-ons for your Davis Island event including branded cups, specialty syrups, and coffee-based signature drinks.</p>
+                    </details>
+                    <details class="bg-white p-4 rounded-lg shadow cursor-pointer group">
+                        <summary class="font-semibold text-dark flex justify-between items-center list-none">
+                            How much space do you need for your coffee cart setup in Davis Island?
+                            <i class="fas fa-chevron-down transform transition-transform duration-200 group-open:rotate-180"></i>
+                        </summary>
+                        <p class="text-gray-600 mt-2">Our standard coffee cart setup requires approximately 8x8 feet of space on a flat surface. We also need access to a standard 110 volt electrical outlet. If power is not available, we can provide a generator for an additional cost.</p>
+                    </details>
+                    <details class="bg-white p-4 rounded-lg shadow cursor-pointer group">
+                        <summary class="font-semibold text-dark flex justify-between items-center list-none">
+                            Do you offer any non-coffee options for Davis Island events?
+                            <i class="fas fa-chevron-down transform transition-transform duration-200 group-open:rotate-180"></i>
+                        </summary>
+                        <p class="text-gray-600 mt-2">Yes! While we specialize in premium coffee beverages, we also offer hot chocolate, chai tea lattes, matcha lattes, and a selection of artisanal teas to accommodate non-coffee drinkers at your Davis Island event.</p>
+                    </details>
+                    <details class="bg-white p-4 rounded-lg shadow cursor-pointer group">
+                        <summary class="font-semibold text-dark flex justify-between items-center list-none">
+                            Do you provide insurance?
+                            <i class="fas fa-chevron-down transform transition-transform duration-200 group-open:rotate-180"></i>
+                        </summary>
+                        <p class="text-gray-600 mt-2">Yes! We carry general liability insurance to cover unforeseen events.</p>
+                    </details>
+                    <details class="bg-white p-4 rounded-lg shadow cursor-pointer group">
+                        <summary class="font-semibold text-dark flex justify-between items-center list-none">
+                            What's your booking & cancellation policy?
+                            <i class="fas fa-chevron-down transform transition-transform duration-200 group-open:rotate-180"></i>
+                        </summary>
+                        <p class="text-gray-600 mt-2">We require a 50% deposit to confirm your booking. The remaining payment is due by the event date. Refunds are provided if you cancel 90 days from your event date and 50% of the deposit if you cancel more than 60 days from your event. Since our seasons book in advance, it’s hard to fill late cancellations so, unfortunately, cancellations made within 60 days of your event will not be refunded.</p>
+                    </details>
+                    <details class="bg-white p-4 rounded-lg shadow cursor-pointer group">
+                        <summary class="font-semibold text-dark flex justify-between items-center list-none">
+                            What happens if my event gets rained out?
+                            <i class="fas fa-chevron-down transform transition-transform duration-200 group-open:rotate-180"></i>
+                        </summary>
+                        <p class="text-gray-600 mt-2">We can not accommodate cancellations due to rain. We will work with you to find the best available option to provide cover for the bar in the event of inclement weather.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section - Updated for Davis Island -->
+        <section class="py-16 bg-primary text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Elevate Your Davis Island Event?</h2>
+                <p class="text-xl mb-10 max-w-2xl mx-auto">
+                    Let Delightful Bean bring the finest mobile coffee experience to your next corporate gathering, wedding, or private party in Davis Island.
+                </p>
+                <a href="https://www.delightfulbean.com/quote"
+                   class="bg-white text-primary py-3 px-8 rounded-full text-lg font-semibold hover:bg-gray-100 transition-colors duration-300"
+                   aria-label="Get a free quote for coffee catering in Davis Island">
+                    Get Your Free Quote Today
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer - Updated for Davis Island -->
+    <footer class="bg-black text-gray-300 py-12" style="background-color: #000000 !important; box-shadow: none;">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-semibold text-white mb-4">Delightful Bean</h3>
+                    <p class="mb-2">Your premier mobile coffee cart serving Davis Island and the surrounding areas.</p>
+                    <p>Email: <a href="mailto:info@delightfulbean.com" class="hover:text-secondary">info@delightfulbean.com</a></p>
+                    <p>Phone: <a href="tel:+18134197438" class="hover:text-secondary">(813) 419-7438</a></p>
+                    <p class="mt-2">Visit our main website: <a href="https://www.delightfulbean.com/" class="hover:text-secondary">DelightfulBean.com</a></p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-white mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#services" class="hover:text-secondary">Our Services</a></li>
+                        <li><a href="#about" class="hover:text-secondary">About Us</a></li>
+                        <li><a href="#faq" class="hover:text-secondary">FAQ</a></li>
+                        <li><a href="https://www.delightfulbean.com/quote" class="hover:text-secondary">Get a Quote</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-white mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/profile.php?id=61565827048649" target="_blank" rel="noopener noreferrer" aria-label="Delightful Bean on Facebook" class="text-2xl hover:text-secondary"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/delightful.bean" target="_blank" rel="noopener noreferrer" aria-label="Delightful Bean on Instagram" class="text-2xl hover:text-secondary"><i class="fab fa-instagram"></i></a>
+                        <!-- Add other social media links if available -->
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-sm">
+                <p>&copy; <span id="currentYear"></span> Delightful Bean. All Rights Reserved. Mobile Coffee Catering for Davis Island, FL.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuButton = document.querySelector('.mobile-menu-button');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        if (menuButton && mobileMenu) {
+            menuButton.addEventListener('click', () => {
+                const expanded = menuButton.getAttribute('aria-expanded') === 'true' || false;
+                menuButton.setAttribute('aria-expanded', !expanded);
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Lazy loading images
+        document.addEventListener("DOMContentLoaded", function() {
+            var lazyImages = [].slice.call(document.querySelectorAll("img.lazy-image"));
+            if ("IntersectionObserver" in window) {
+                let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            let lazyImage = entry.target;
+                            lazyImage.src = lazyImage.dataset.src || lazyImage.src; // Use data-src if available, otherwise current src
+                            lazyImage.classList.add("loaded");
+                            lazyImageObserver.unobserve(lazyImage);
+                        }
+                    });
+                });
+                lazyImages.forEach(function(lazyImage) {
+                    lazyImageObserver.observe(lazyImage);
+                });
+            } else {
+                // Fallback for browsers that don't support IntersectionObserver
+                lazyImages.forEach(function(lazyImage) {
+                    lazyImage.src = lazyImage.dataset.src || lazyImage.src;
+                    lazyImage.classList.add("loaded");
+                });
+            }
+        });
+
+        // Set current year in footer
+        const yearSpan = document.getElementById('currentYear');
+        if (yearSpan) {
+            yearSpan.textContent = new Date().getFullYear();
+        }
+    </script>
+</body>
+</html>
